@@ -1,6 +1,6 @@
 import wtforms as __wtf
 from markupsafe import Markup
-from wtforms.ext.sqlalchemy.fields import QuerySelectField
+import wtforms.ext.sqlalchemy.fields as __wtfa
 from wtforms.widgets import html_params
 
 __all__ = [
@@ -18,6 +18,7 @@ __all__ = [
     "IntegerField",
     "Input",
     "PasswordInput",
+    "QuerySelectField",
     "RadioField",
     "RadioInput",
     "Select",
@@ -254,7 +255,7 @@ class SubmitField(__wtf.SubmitField):
     widget = SubmitInput()
 
 
-class QuerySelectField(QuerySelectField):
+class QuerySelectField(__wtfa.QuerySelectField):
     widget = Select()
 
 
