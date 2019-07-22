@@ -1,8 +1,7 @@
-from markupsafe import Markup
 import wtforms as __wtf
+from markupsafe import Markup
 from wtforms.ext.sqlalchemy.fields import QuerySelectField
 from wtforms.widgets import html_params
-
 
 __all__ = [
     "AccordianWidget",

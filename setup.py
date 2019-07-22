@@ -15,7 +15,7 @@ setup(
     url="https://github.com/5uper5hoot/bswtf.git",
     author="Peter Schutt",
     author_email="peter@topsport.com.au",
-    license='MIT License',
+    license="MIT License",
     packages=["bswtf"],
-    install_requires=['markupsafe', 'wtforms']
+    install_requires=["markupsafe", "wtforms"],
 )
