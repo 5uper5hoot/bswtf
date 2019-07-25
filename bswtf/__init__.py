@@ -1,6 +1,6 @@
 import wtforms as __wtf
-from markupsafe import Markup
 import wtforms.ext.sqlalchemy.fields as __wtfa
+from markupsafe import Markup
 from wtforms.widgets import html_params
 
 __all__ = [

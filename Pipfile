@@ -6,8 +6,9 @@ verify_ssl = true
 [dev-packages]
 flake8 = "*"
 black = "*"
-isort = "*"
 bswtf = {editable = true,path = "."}
+isort = {extras = ["pipfile"],version = "*"}
+pre-commit = "*"
 
 [packages]
 wtforms = "*"
