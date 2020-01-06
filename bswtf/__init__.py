@@ -193,7 +193,7 @@ class AccordianWidget:
                         "id": f"collapse-{id_}",
                         "class": "collapse",
                         "aria-labelledby": f"heading-{id_}",
-                        "data-parent": id_,
+                        "data-parent": f"#{id_}",
                     }
                 )
             )
